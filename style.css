@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body .main{
+    background-image: linear-gradient(to right, white 0%, white 74%, #01897a 50%, #01897a 100%);
+    height: 100vh;
+}
+
+.nav-link{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px 50x;
+    align-items: center;
+    margin: 0px 70px;
+    position: relative;
+    top: 30px;
+
+}
+
+.nav-link img{
+     
+}
+
+span{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration:solid;
+    color: rgb(141, 141, 141);
+
+}
+
+.nav-link{
+    display: flex;
+    gap: 40px;
+}
+
+.btn button{
+    background-color: rgb(178, 170, 170);
+    color: #000;
+    width: 100px;
+    height: 40px;
+    font-weight:bold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    
+
+}
+
+.lack{
+    background-color: #000;
+    color: white;
+    width: 100px;
+    height: 40px;
+    font-weight:0px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+    right: 40px;
+}
+
+button:hover{
+    background-color: rgb(66, 86, 61);
+    transition: 0.3s;
+}
+
+.logo{
+    position: relative;
+    left: 30px;
+    top: 10px;
+}
+
+.content{
+
+    position: relative;
+    top: 160px;
+    left: 100px;
+    font-family: "Poppins", serif;
+}
+
+.text{
+    font-size: 20px;
+
+}
+
+.lak{
+    background-color: #000;
+    color: white;
+    width: 100px;
+    height: 40px;
+    font-weight:0px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+    right: 4px;
+}
+
+.car{
+    position: absolute;
+    left: 54%;
+    bottom: 0%;
+}
+
+.person{
+    position: absolute;
+    top: 120%;
+    left: 5%;
+}
+
+.all {
+    position: absolute;
+    top: 150%;
+    left: 70%;
+}
+
+
