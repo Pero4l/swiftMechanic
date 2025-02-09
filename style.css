@@ -186,5 +186,26 @@ footer{
     font-size: 15px;
 }
 
+.line{
+    background-color: #01897a;
+    height: 40vh;width: 1300px;
+    position: relative;
+    top: 950px;
+}
 
+.line img{ 
+    position: absolute;
+    left: 44%;
+    bottom: 85px;
+    
+}
+
+.last-p{
+    color: white;
+    position: relative;
+    top: 810px;
+    text-align: center;
+    font-family: "Poppins", serif;
+    font-size: 15px;
+}
 
