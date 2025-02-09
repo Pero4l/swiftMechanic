@@ -123,7 +123,68 @@ button:hover{
 .all {
     position: absolute;
     top: 150%;
-    left: 70%;
+    left: 60%;
+    font-family: "Poppins", serif;;
 }
+
+.apps{
+    background-color: #000;
+    color: white;
+    width: 130px;
+    height: 40px;
+    font-weight:0px;
+    border: none;
+    border-radius: 10px;
+    
+    position: relative;
+    bottom: -5px;
+    right: 13px;
+    display: inline-flex;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    font-size: 11px;
+}
+
+.apps-1{
+background-color: #000;
+    color: white;
+    width: 130px;
+    height: 40px;
+    font-weight:0px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+    left: 130px;
+    bottom: 55px;
+    display: flex;
+    font-size: 11px;
+    align-items: center;
+    padding: 20px;
+    margin: 10px
+}
+
+p {
+    font-size: 11px;
+}
+
+footer{
+    background-color: #01897a;
+    height: 80vh;
+    width: 1300px;
+    position: absolute;
+    bottom: -180%;
+    display: flex;
+    justify-content: space-around;
+    font-family: "Poppins", serif;
+    color: white;
+    
+}
+
+.foot p{
+    font-size: 15px;
+}
+
 
 
