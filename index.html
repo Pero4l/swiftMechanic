@@ -1,118 +1,167 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta http-equiv="refresh" content="">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SwiftMechanic</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Liter&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <title>SwiftMechanic</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+
 <body>
-    <div class="main">
-    <header>
-        <nav class="nav-link">
-            <div class="logo">
-                <img src="img/logo.jpeg" width="90px" height="90px" alt="logo image">
+    <div class="main-container">
+        <!-- Clipped background -->
+        <div class="clip-container"></div>
+        <header>
+            <nav class="nav-items">
+                <div class="logo">
+                    <img src="img/logo.jpeg" width="40px"
+                    height="40px" alt="logo image" class="logo-img">
+                    <span class="logo-name">Swift Mechanic</span>
+                </div>
+
+                <ul class="nav-list">
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li><a href="owner.html">Vechicle Owner</a></li>
+                    <li><a href="mechanic.html">Mechanic</a></li>
+                    <div class="icon">
+                        <li><img src="img/language_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg" alt=""></li>
+                        <select>
+                            <option>EN</option>
+                            <option>Hindi</option>
+                            <option>Thai</option>
+                            <option>Dutch</option>
+                        </select>
+                    </div>
+                        <li><a href="support.html">Support</a></li>
+                </ul> 
+
+
+                <div class="nav-btn">
+                    <a href="login.html"><button class="btn-auth btn-login">Login</button></a>
+                    <a href="signup.html"><button class="btn-auth btn-signup">Signup</button></a>
+                </div>
+
+            </nav>
+
+
+        </header>
+
+        <div class="home">
+            <div class="home-content">
+                <div class="home-title">
+                    <h1>Reliable Auto Repairs <br>
+                        Anytime, Anywhere.</h1> <br>
+                    <p>Fix your car anywhere, anytime, swiftly.</p> <br><br>
+                    <div class="get-started">
+                        <button>Get Started</button>
+                        <p>Already have an account? Sign in</p>
+                    </div>
+                </div>
+
+                <div class="carmch">
+                    <img src="img/phoneandcar-removebg-preview.png" width="400px" height="400px" alt="" class="mech-img">
+                </div>
             </div>
-                <span>SwiftMechanic</span>
-            <a href="#">About</a>
-            <a href="#">Vehicle Owner</a>
-            <a href="#">Mechanic</a>
-            <div class="img">
-            <a href="#"> <img src="img/language_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg" width="30px" height="30px" alt=""> &nbsp; <b>EN</b>  &nbsp;  &nbsp;  &nbsp;</a>
-            <a href="#">Support</a>    
+
         </div>
-            
-            <div class="btn">
-                <button>Login</button> &nbsp;
+
+        <!-- content 2 -->
+
+        <div class="content-2">
+
+            <img src="img/person.jpeg" width="250px" height="400px" alt="">
+
+            <div class="text">
+                <h2>It's easier in the apps</h2> <br>
+
+                <p>
+                    Our app is ready for both platforms. you can
+                    download app for both android and ios
+                </p>
+                <br><br>
+                <div class="apps">
+                    <div class="download-1">
+                        <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" style="fill: rgba(255, 255, 255, 1);transform: ;msFilter:;"><path d="M19.665 16.811a10.316 10.316 0 0 1-1.021 1.837c-.537.767-.978 1.297-1.316 1.592-.525.482-1.089.73-1.692.744-.432 0-.954-.123-1.562-.373-.61-.249-1.17-.371-1.683-.371-.537 0-1.113.122-1.73.371-.616.25-1.114.381-1.495.393-.577.025-1.154-.229-1.729-.764-.367-.32-.826-.87-1.377-1.648-.59-.829-1.075-1.794-1.455-2.891-.407-1.187-.611-2.335-.611-3.447 0-1.273.275-2.372.826-3.292a4.857 4.857 0 0 1 1.73-1.751 4.65 4.65 0 0 1 2.34-.662c.46 0 1.063.142 1.81.422s1.227.422 1.436.422c.158 0 .689-.167 1.593-.498.853-.307 1.573-.434 2.163-.384 1.6.129 2.801.759 3.6 1.895-1.43.867-2.137 2.08-2.123 3.637.012 1.213.453 2.222 1.317 3.023a4.33 4.33 0 0 0 1.315.863c-.106.307-.218.6-.336.882zM15.998 2.38c0 .95-.348 1.838-1.039 2.659-.836.976-1.846 1.541-2.941 1.452a2.955 2.955 0 0 1-.021-.36c0-.913.396-1.889 1.103-2.688.352-.404.8-.741 1.343-1.009.542-.264 1.054-.41 1.536-.435.013.128.019.255.019.381z"></path></svg><span>Download on the <br> <b>App store</b></span></a>
+
             </div>
-                <button class="lack">Signup</button>
-        </nav>
-    </header>
-    <div class="content">
-        <div class="text">
-        <h1>Reliable Auto Repairs <br>
-        Anytime, Anywhere.</h1></div>
+
+            <div class="download-2">
+                <a href=""><img src="img/playstore.png" width="30px" height="30px" alt=""> <span>Get it on <br><b>Google play</b></span></a>
+            </div>
+        </div>
+
+
+     
+
+            
+
+            
+            </div>
+        </div>
+
+        <footer>
+
+            <div class="col-1">
+                <span class="span-1">Company</span>
+                <ul>
+                <li>About SWIFT MECHANIC</li>
+                <li>Impact</li>
+                <li>Press & Media</li>
+                <li>Careers</li>
+                <li>Blog</li>
+                <li>Contact</li>
+            </ul>
+
+            </div>
+
+
+            <div class="col-2">
+                <span class="span-2">Services</span>
+                <ul>
+                <li>Mechanic Platform</li>
+                <li>Vechicle Owners Platform</li>
+            </div>
+        </ul>
+
+
+            <div class="col-3"><br>
+                <span class="span-3">Get in touch</span><br><br>
+                <ul>
+                <li>Support@swiftmechanic.co <br>
+                info@swiftmechanic.co</li><br>
+                <li>Jos, Plateau State Nigerian</li><br>
+                <li>+234 (0) 9032621846</li>
+                <li>+234 (0) 8185991314</li>
+            </ul>
+            </div>
+        </footer>
+        <hr>
+        <div class="end">
+            <img src="img/darklogo.png" width="150px" height="150px" style="text-align: center;" alt="">
+        
+            <h3 style="text-align: center;">Terms of Service | Privacy Policy</h3>
+
+            <p>
+                &copy; 2024 SWIFT MECHANIC. All rights reserved. Max.ng is a registered trademark of SWIFT MECHANIC. All other marks, names, and logos mentioned herein are the property of their respective owners.
+            </p>
+        
+        
+        </div>
 
         
-        <p>Fix your car anywhere, anytime, swiftly</p> <br>
-        <button class="lak">Get Started</button> Already have an account? Sign in
-    </div>
 
-    <div class="car">
-        <img src="img/phoneandcar.jpeg" width="410px" height="410px" alt="">
-    </div>
-    <div class="person">
-        <img src="img/person.jpeg" width="300px" height="400px" alt="">
-    </div>
-    <div class="all">
-    <div class="text-2">
-    <h1>It's easier in the apps</h1></div> 
-    <p class="ppp">Our app is ready for both platforms. you can <br> 
-        download app for both android and ios </p>
-<br>
-        <a href="" class="apps"><i class="fa fa-apple"></i> Download on the<br> App store</a>
-        <a href="" class="apps-1"><i class="fa fa-google"></i> Get it on<br>Google play</a>
-    </div>
-</div>
-</div>
-<!-- footer -->
-<div class="foot">
-            <footer>
-                <div class="row-1"><br><br>
-                <h3>Company</h3> 
-                <br><br>
-                About SWIFT MECHANIC <br><br>
-                Impact <br><br>
-                Press & Media <br><br>
-                Careers <br><br>
-                Blog <br><br>
-                Contant
-                </div>
 
-                <div class="row-2"><br><br>
-                <h3>Services</h3><br><br>
-                <p>
-                Mechanic Platform <br><br>
-                Vehicle Owners Platform
-            </p>
-        </div>
 
-                <div class="row-3"><br><br>
-                        <h3>Get in touch</h3><br><br>
-                        <p>
-                            support@swiftmechanic.co <br>
-                            info@swiftmechanic.co <br><br>
-                            Jos, Pleateau State Nigeria <br><br>
-                            +234 (0) 9032621846 <br>
-                            +234 (0) 8185991314
-                        </p>
-                </div>
-                
-
-            </footer>
-            <div class="line">
-                <hr>
-                <img src="img/darklogo.png" width="200px" height="200px" alt="">
-            </div>
-
-            <div class="last-p">
-                <h3>Terms of service | Privacy Policy</h3>
-                <p>
-                    &copy; 2025 SWIFT MECHANIC. All rights
-                     reserved. Max.ng is a registered 
-                     trademark of SWIFT MECHANIC.
-                      All others marks, name, and logo mentioned
-                      herein <br> are all the property of their 
-                      respective owners. 
-            </p>
-            </div>
-
-</div>
 
 </body>
+
 </html>

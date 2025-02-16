@@ -1,211 +1,273 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    font-family: "Montserrat", serif;
 }
 
-body .main{
-    background-image: linear-gradient(to right, white 0%, white 74%, #01897a 50%, #01897a 100%);
-    height: 100vh;
-}
+     /* Main container */
+     .main-container {
+        position: relative;
+        min-height: 100vh;
+        overflow: hidden;
+    }
 
-.nav-link{
+    /* Background clip container */
+
+    .clip-container {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: 100vh;
+        clip-path: polygon(80% 0, 100% 0%, 100% 100%, 67% 100%);
+        background-color: #01917b;
+        z-index: -1;
+    }
+
+    /* Navbar Styling */
+
+    .nav-items {
+        display: flex;
+        justify-content: space-between;
+        margin: 40px 120px;
+        align-items: center;
+        position: relative;
+        z-index: 1;
+    }
+
+
+/* First Nav Child */
+.logo{
     display: flex;
-    justify-content: space-evenly;
-    padding: 15px 50x;
     align-items: center;
-    margin: 0px 70px;
-    position: relative;
-    top: 30px;
-
+    gap: 10px;
 }
 
-.nav-link img{
-     
+.logo> .logo-img{
+  width: 70px;
+  height: auto;  
 }
 
-span{
-    font-size: 30px;
-    font-weight: 500;
+/* Second Nav Child */
+.nav-list{
+   display: flex;
+   gap: 40px;
+   align-items: center;
 }
 
-a{
+.icon{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.nav-list li{
+    list-style: none;
+}
+.nav-list a {
     text-decoration: none;
     color: black;
 }
 
-a:hover{
-    text-decoration:solid;
-    color: rgb(141, 141, 141);
+/* Third Nav Child */
 
+.nav-btn{
+   display: flex;
+   gap: 10px;
+   
 }
 
-.nav-link{
+.btn-auth{
+    padding: 10px 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+.btn-signup{
+    background-color: #000;
+    color: #fff;
+}
+
+
+
+.get-started{
     display: flex;
-    gap: 40px;
+    align-items: center;
+    gap: 20px;
+   
 }
 
-.btn button{
-    background-color: rgb(178, 170, 170);
-    color: #000;
-    width: 100px;
-    height: 40px;
-    font-weight:bold;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
-    
-
-}
-
-.lack{
-    background-color: #000;
+.get-started button{
     color: white;
-    width: 100px;
-    height: 40px;
-    font-weight:0px;
-    border: none;
+    background-color: #000000;
+    height: 50px;
+    width: 150px;
     border-radius: 10px;
-    cursor: pointer;
-    position: relative;
-    right: 40px;
-}
-
-button:hover{
-    background-color: rgb(66, 86, 61);
-    transition: 0.3s;
-}
-
-.logo{
-    position: relative;
-    left: 30px;
-    top: 10px;
-}
-
-.content{
-
-    position: relative;
-    top: 160px;
-    left: 100px;
-    font-family: "Poppins", serif;
-}
-
-.text{
-    font-size: 20px;
-
-}
-
-.lak{
-    background-color: #000;
-    color: white;
-    width: 100px;
-    height: 40px;
-    font-weight:0px;
     border: none;
-    border-radius: 10px;
-    cursor: pointer;
-    position: relative;
-    right: 4px;
+
 }
 
-.car{
-    position: absolute;
-    left: 54%;
-    bottom: 0%;
+
+.btn-auth:hover{
+    background-color: #696363;
+    transition: ease-in 0.2s;
+
 }
 
-.person{
-    position: absolute;
-    top: 120%;
-    left: 5%;
+
+.get-started button:hover{
+    background-color: #696363;
+    transition: ease-in 0.2s;
+
 }
 
-.all {
-    position: absolute;
-    top: 150%;
-    left: 60%;
-    font-family: "Poppins", serif;;
+.home-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 60px 115px;
 }
+
 
 .apps{
-    background-color: #000;
+    background-color: #060606;
     color: white;
-    width: 130px;
-    height: 40px;
-    font-weight:0px;
-    border: none;
-    border-radius: 10px;
-    
-    position: relative;
-    bottom: -5px;
-    right: 13px;
-    display: inline-flex;
+    border-radius: 7px;
+    height: 50px;
+    display: flex;
     align-items: center;
-    padding: 10px;
-    margin: 10px;
-    font-size: 11px;
 }
 
 .apps-1{
-background-color: #000;
+    background-color: #000;
     color: white;
-    width: 130px;
-    height: 40px;
-    font-weight:0px;
-    border: none;
     border-radius: 10px;
-    cursor: pointer;
-    position: relative;
-    left: 130px;
-    bottom: 55px;
-    display: flex;
-    font-size: 11px;
-    align-items: center;
-    padding: 20px;
-    margin: 10px
 }
 
-p {
-    font-size: 11px;
+.content-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px;
 }
+
+.content-2 p{
+    width: 370px;
+}
+
+
+.text p{
+    line-height: 30px;
+    
+}
+
+.download-1{
+    display: flex;
+    align-items: center;
+    background-color: rgb(3, 3, 3);
+    color: white;
+    width: 180px;
+    height: 50px;
+    border-radius: 6px;
+   font-size: small;
+    
+
+}
+
+.download-1 a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.download-2{
+    display: flex;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    width: 180px;
+    height: 50px;
+    border-radius: 6px;
+    font-size: small;
+
+}
+
+.download-2 a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+}
+
+.apps{
+    display: flex;
+    background-color: white;
+    gap: 20px;
+}
+
+
 
 footer{
-    background-color: #01897a;
-    height: 80vh;
-    width: 1300px;
-    position: absolute;
-    bottom: -180%;
     display: flex;
-    justify-content: space-around;
-    font-family: "Poppins", serif;
+    justify-content: space-evenly;
+    background-color: #01917b;
+    color: white;
+    padding: 30px;
+}
+
+footer ul li{
+    list-style: none;
+    
+}
+
+.col-1{
+    line-height: 50px;
+}
+
+.col-2{
+    line-height: 50px;
+}
+
+.span-1{
+    font-size: large;
+    font-weight: 700;
+}
+
+.span-2{
+    font-size: large;
+    font-weight: 700;
+}
+
+.span-3{
+    font-size: large;
+    font-weight: 700;
+}
+
+.end{
+    background-color: #01917b;
     color: white;
     
 }
 
-.foot p{
-    font-size: 15px;
-}
-
-.line{
-    background-color: #01897a;
-    height: 40vh;width: 1300px;
+.end img{
     position: relative;
-    top: 950px;
-}
-
-.line img{ 
-    position: absolute;
-    left: 44%;
-    bottom: 85px;
+    left: 587px;
+    bottom: 43px;
     
 }
 
-.last-p{
-    color: white;
+.end h3{
     position: relative;
-    top: 810px;
-    text-align: center;
-    font-family: "Poppins", serif;
-    font-size: 15px;
+    bottom: 78px;
 }
+
+.end p{
+    margin:0px 170px;
+    font-size: 14px;
+    position: relative;
+    bottom: 70px;
+    font-weight: 500;
+}
+
 
